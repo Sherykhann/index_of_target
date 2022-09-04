@@ -1,0 +1,9 @@
+def idx(num,target):
+    count=0
+    for item in num:
+        count+=1
+        if item==target:
+            return count-1
+num=[1,2,3,4,5,6] 
+target=6
+print(idx(num,target))
